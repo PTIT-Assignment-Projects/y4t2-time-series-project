@@ -3,4 +3,15 @@ name = "y4t2-time-series-project"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "altair==4.2.2",
+    "joblib>=1.5.3",
+    "numpy>=2.4.3",
+    "pandas==2.3.3",
+    "pandas-datareader>=0.10.0",
+    "pyarrow>=23.0.1",
+    "streamlit>=1.55.0",
+    "ta-lib>=0.6.8",
+    "tqdm>=4.67.3",
+    "yfinance>=1.2.0",
+]
